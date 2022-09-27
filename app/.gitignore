@@ -3,8 +3,8 @@
 /build
 .gradle/
 /captures
-**/*.iml
+
 gradlew
 gradlew.bat
-*.apk
+
 
