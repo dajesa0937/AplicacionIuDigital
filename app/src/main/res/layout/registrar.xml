@@ -12,12 +12,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="20dp"
         android:layout_weight="1"
-        android:padding="20dp"
-        android:src="@drawable/login" />
+        android:gravity="center"
+        android:text="CREAR NUEVO USUARIO"/>
+
 
     <EditText
         android:layout_width="match_parent"
@@ -26,7 +28,7 @@
         android:hint="@string/user_name"
         android:layout_margin="20dp"
         android:inputType="textEmailAddress"
-        android:id="@+id/User"/>
+        android:id="@+id/RegUser"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -35,20 +37,25 @@
         android:hint="@string/password"
         android:layout_margin="20dp"
         android:inputType="textPassword"
-        android:id="@+id/Pass"/>
+        android:id="@+id/RegPass"/>
 
-    <Button
-        android:id="@+id/btnIngresar"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="@string/start"
-        android:layout_margin="30dp"
-        android:textColor="@color/blue"
-        android:textSize="30dp"
-        android:background="@drawable/custom_button"
-        android:textStyle="bold"/>
+        android:hint="@string/register_name"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:id="@+id/RegName"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/apellido"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:id="@+id/RegApellido"/>
 
     <Button
         android:id="@+id/btnRegistrar"
@@ -56,11 +63,24 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:text="@string/register"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         android:textColor="@color/blue"
         android:textSize="30dp"
         android:background="@drawable/custom_button"
         android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnRegCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/cancelar"
+        android:layout_margin="25dp"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"/>
+
+
 
 </LinearLayout>
 

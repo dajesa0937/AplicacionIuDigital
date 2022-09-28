@@ -5,4 +5,13 @@
     <string name="password">Contraseña</string>
     <string name="start">INGRESAR</string>
     <string name="register">Registrar</string>
+    <string name="apellido">Apellidos</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="register_name">Nombre</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="editar">ACTUALIZAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="salir">SALIR</string>
+    <string name="listar">LISTAR USUARIOS</string>
+    <string name="agrobotes">AGROBOTES</string>
 </resources>
